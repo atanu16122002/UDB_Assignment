@@ -37,7 +37,7 @@ return {count, redis.call('TTL', KEYS[1])}
 
 @app.route("/")
 def home():
-    return "Rate Limiter Application is Running! This is for test only."
+    return "Rate Limiter Application is Running! This is for testing only. Developed by Atanu Paul"
 
 @app.route("/api/resource")
 def resource():
